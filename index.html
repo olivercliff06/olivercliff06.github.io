@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cliff Oliver Susanto — Software Engineering student at Taylor’s University. Full-stack development, UI/UX design, and database projects.">
+  <meta name="theme-color" content="#101010">
+  <title>Cliff Oliver Susanto — Monochrome Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#" aria-label="Cliff Oliver home">cliff<span>.dev</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">Light mode</button>
+    <a class="header-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="tiny-line"></span> SOFTWARE ENGINEERING STUDENT</div>
+        <h1 id="hero-title">Cliff Oliver<br><span>Susanto.</span></h1>
+        <p class="hero-tagline">Software engineering. Built with intent.</p>
+        <p class="hero-description">I’m a student at Taylor’s University exploring the intersection of thoughtful design and full-stack development. Ready to learn, build, and contribute.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="assets/cliff-oliver-resume.pdf" download>Download CV <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg></a>
+        </div>
+        <div class="location"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M19 10c0 6-7 11-7 11S5 16 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Petaling Jaya, Malaysia <span class="location-divider">/</span> <span>Class of 2027</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame"><img src="assets/cliff-oliver.jpg" alt="Cliff Oliver Susanto standing by a marina" width="960" height="1280" fetchpriority="high"></div>
+        <div class="portrait-label"><span>CLIFF OLIVER SUSANTO</span><span>↗</span></div>
+        <div class="availability"><span class="status-dot"></span>Seeking a software engineering internship</div>
+      </div>
+    </section>
+
+    <div class="focus-strip"><div class="wrap focus-inner"><span class="focus-label">WHAT I WORK WITH</span><span>Full-stack development</span><span class="strip-star" aria-hidden="true">✳</span><span>UI/UX design</span><span class="strip-star" aria-hidden="true">✳</span><span>Relational databases</span></div></div>
+
+    <section class="section wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-top"><div><span class="eyebrow">01 / SELECTED WORK</span><h2 id="projects-title">Selected projects.</h2></div><a class="text-link" href="https://github.com/olivercliff06" target="_blank" rel="noopener noreferrer">My GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="project-grid">
+        <article class="project"><div class="project-meta">PERSONAL PROJECT</div><h3>Residence booking web app</h3><p>A web application I built as a booking service for my own residence, inspired by Airbnb’s accommodation-booking model.</p><div class="project-foot"><span class="project-tag">Accommodation booking</span></div></article>
+        <article class="project"><div class="project-meta">HACKATHON / TEAM PROJECT</div><h3>Tourism application</h3><p>A tourism app developed for ImagineHacks, with React interfaces and UI/UX wireframes informed by relational data needs and scalability considerations.</p><div class="project-foot"><span class="project-tag">Top-10 finalist</span></div></article>
+        <article class="project"><div class="project-meta">UNIVERSITY COURSEWORK</div><h3>Full-stack web development</h3><p>Web applications connecting frontend interfaces with server-side logic and MySQL databases, with Figma wireframes and prototypes guiding development.</p><div class="project-foot"><span class="project-tag">Design → development</span></div></article>
+        <article class="project"><div class="project-meta">UNIVERSITY COURSEWORK</div><h3>Database design & management</h3><p>Relational database schemas and SQL queries in MySQL, exploring data modeling, normalization, and optimization through coursework projects.</p><div class="project-foot"><span class="project-tag">Structured thinking</span></div></article>
+      </div>
+    </section>
+
+    <section class="section wrap about-grid" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><span class="eyebrow">02 / ABOUT ME</span><h2 id="about-title">Behind the code.</h2></div>
+      <div class="about-copy"><p class="large-copy">I enjoy bringing the pieces together — from an interface’s first wireframe to the database behind it.</p><p>I’m a second-year Software Engineering student at Taylor’s University with hands-on academic experience in web development, database management, and UI/UX design. I work with React, backend technologies, MySQL, and Figma to connect design with functionality.</p><p>Now preparing for a software engineering internship, I’m looking for an opportunity to put my skills into practice and keep learning alongside a team.</p>
+        <div class="about-details"><div><span class="detail-label">BASED IN</span><span>Petaling Jaya, Malaysia</span></div><div><span class="detail-label">CURRENT FOCUS</span><span>Software engineering internship</span></div></div>
+      </div>
+    </section>
+
+    <section class="achievement wrap" aria-labelledby="achievement-title">
+      <div class="award-number">Top <span>10</span><small>OUT OF 50 TEAMS</small></div>
+      <div class="award-copy"><span class="eyebrow">HACKATHON / RECOGNITION</span><h2 id="achievement-title">ImagineHacks finalist.</h2><p>Our tourism application earned a top-10 finish at ImagineHacks, Taylor’s University’s hackathon — bringing together React development, UI/UX wireframes, and application architecture.</p><span class="award-label">ImagineHacks · Taylor’s University</span></div>
+      <svg class="award-star" viewBox="0 0 100 100" aria-hidden="true"><path d="m50 0 8 31 27-16-16 27 31 8-31 8 16 27-27-16-8 31-8-31-27 16 16-27L0 50l31-8-16-27 27 16Z"/></svg>
+    </section>
+
+
+
+    <section class="skills-section" id="skills" aria-labelledby="skills-title"><div class="wrap skills-layout">
+      <div class="section-heading"><span class="eyebrow">03 / MY TOOLKIT</span><h2 id="skills-title">Technical toolkit.</h2><p>Growing a practical foundation across design, development, and testing.</p></div>
+      <div class="skills-list">
+        <div class="skill-row"><h3><span>01</span> Frontend</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div></div>
+        <div class="skill-row"><h3><span>02</span> Backend & data</h3><div class="tags"><span>Java</span><span>Python</span><span>PHP</span><span>TypeScript</span><span>MySQL</span><span>Supabase</span></div></div>
+        <div class="skill-row"><h3><span>03</span> Design</h3><div class="tags"><span>Figma</span><span>Wireframing</span><span>Prototyping</span></div></div>
+        <div class="skill-row"><h3><span>04</span> Beyond the code</h3><div class="tags"><span>AI & prompt engineering</span><span>Testing fundamentals</span><span>Defect reporting</span><span>System thinking</span></div></div>
+      </div>
+    </div></section>
+
+    <section class="section wrap education-layout" id="education" aria-labelledby="education-title"><div><span class="eyebrow">04 / FOUNDATIONS</span><h2 id="education-title">Education.</h2></div><div class="education-content"><div class="education-top"><span class="education-mark" aria-hidden="true">T.</span><div><h3>Taylor’s University</h3><p>Subang Jaya, Malaysia</p></div><span class="graduation">Expected 2027</span></div><h4>Bachelor of Software Engineering<br><span>(Computer Science)</span></h4><p class="education-status">Second year · Final semester before internship</p><div class="language-block"><span class="detail-label">LANGUAGES</span><p>English <span>·</span> Bahasa Indonesia <span>·</span> Bahasa Melayu <span>·</span> Chinese <small>(basic)</small></p></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-layout"><div><span class="eyebrow">05 / WHAT’S NEXT</span><h2 id="contact-title">Let’s build<br><em>something good.</em></h2><p>Have an internship opportunity or a project in mind?<br>I’d love to hear from you.</p><a class="button button-cream" href="mailto:olivercliff06@gmail.com">Say hello <span aria-hidden="true">↗</span></a></div><div class="contact-links"><a class="email-link" href="mailto:olivercliff06@gmail.com">olivercliff06@gmail.com <span aria-hidden="true">↗</span></a><a href="https://github.com/olivercliff06" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/cliff-oliver-susanto-8b822836a" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span></a><a href="assets/cliff-oliver-resume.pdf" download><span>Download my resume</span><span aria-hidden="true">↓</span></a></div></div><footer class="wrap site-footer"><span>© <span id="year">2026</span> Cliff Oliver Susanto</span><span>Designed with intention. Built with curiosity.</span><a href="#">Back to top ↑</a></footer></section>
+  </main>
+</body>
+</html>
